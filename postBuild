@@ -1,6 +1,0 @@
-#!/bin/sh
-
-set -e
-
-jlpm && jlpm run build
-python -m pip install .
